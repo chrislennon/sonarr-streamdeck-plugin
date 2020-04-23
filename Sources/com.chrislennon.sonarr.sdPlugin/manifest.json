@@ -1,0 +1,38 @@
+{
+  "Actions": [
+    {
+      "Icon": "action/images/actionimage", 
+      "Name": "Show Queue Length",
+      "States": [
+        {
+          "Image": "action/images/action"
+        }
+      ], 
+      "Tooltip": "Shows the length of the activity queue in Sonarr",
+      "UUID": "com.chrislennon.sonarr.action"
+    }
+  ], 
+  "SDKVersion": 2,
+  "Author": "chrislennon",
+  "CodePath": "index.html", 
+  "PropertyInspectorPath": "propertyinspector/index.html", 
+  "Description": "Shows the length of the activity queue in Sonarr",
+  "Name": "Sonarr Stream Deck Plugin",
+  "Icon": "action/images/action", 
+  "URL": "https://github.com/chrislennon/sonarr-streamdeck-plugin",
+  "Version": "1.0.0",
+  "OS": [
+    {
+        "Platform": "mac", 
+        "MinimumVersion" : "10.11"
+    },
+    {
+        "Platform": "windows", 
+        "MinimumVersion" : "10"
+    }
+  ],
+  "Software": 
+    {
+        "MinimumVersion" : "4.1"
+  }
+}

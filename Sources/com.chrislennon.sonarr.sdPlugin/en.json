@@ -1,0 +1,9 @@
+{
+  "Description": "Shows the length of the activity queue in Sonarr",
+  "Name": "Sonarr Stream Deck Plugin",
+  "Category": "Templates", 
+  "com.chrislennon.sonarr.action": {
+    "Name": "Sonarr Queue Length",
+    "Tooltip": "Shows the length of the activity queue in Sonarr"
+  }
+}
